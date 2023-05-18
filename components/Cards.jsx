@@ -7,7 +7,7 @@ export default function Cards() {
   return (
     <div className="w-full py-[10rem] px-4 bg-white  ">
         <div className="mb-8 h-18">
-        <h1 className="text-center border-b-4 border-slate-500 mb-8 p-2 mt-[-5rem] font-bold text-6xl mx-auto
+        <h1 className="text-center border-b-4 border-slate-500 mb-8 p-2 mt-[-5rem] font-bold text-3xl mx-auto 
         bg-gradient-to-r from-slate-600 via-zinc-700 to-amber-900 bg-clip-text text-transparent ">HİZMETLERİMİZ</h1>
         </div>
 
