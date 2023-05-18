@@ -1,6 +1,8 @@
 "use client"
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react'; 
+import logo from '@/public/logo.svg'
 
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 
@@ -13,9 +15,14 @@ export default function Navbar(){
 
     return(
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-            <h1 className="flex w-full text-3xl font-bold text-[#92400e]">Esas Hukuk</h1>
+            <Link href="/" className='flex'>
+                <Image src={logo}  width={90} height={60} />
+                <h1 className="flex w-full text-3xl font-bold text-[#ffffff] mt-6">Esas Hukuk</h1>
+                
+            </Link>
             
-            <ul className='hidden md:flex'>
+            
+            <ul className='hidden md:flex text-lg'>
                 <li  className='p-4'>
                     <Link href="/">Anasayfa</Link>
                 </li>  
@@ -26,7 +33,7 @@ export default function Navbar(){
                     <Link href="/services">Hizmetlerimiz</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href="">Yazılarımız</Link>
+                    <Link href="/posts">Yazılarımız</Link>
                 </li>
                 <li className='p-4'>
                     <Link href="/contact">İletişim</Link>

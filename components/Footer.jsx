@@ -4,7 +4,7 @@ export default function Footer() {
     <div>
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-8 text-gray-300">
         <div >
-            <h1 className="flex max-w-sm text-3xl font-bold mb-4 text-[#9efff2]">
+            <h1 className="flex max-w-sm text-3xl font-bold mb-4 text-[#f1fcff]">
                 Esas Hukuk
             </h1>
             <iframe className="w-[500px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48371.11384280771!2d31.6149705!3d40.735743!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409d3fd82c8bdb63%3A0x30cb3b07a6359916!2sEsas%20Hukuk%20%26%20Dan%C4%B1%C5%9Fmanl%C4%B1k%20Av.%20Emre%20G%C3%9CLER%20-%20Av.%20Sefa%20YAMAN!5e0!3m2!1str!2str!4v1684132972277!5m2!1str!2str" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

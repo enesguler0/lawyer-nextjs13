@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 
 export default function Hero () {
   return (
@@ -9,8 +9,10 @@ export default function Hero () {
             <div>
                 <p className="md:text-3xl sm:text:2xl text-xl font-bold text-gray-600">Hızlı ve etkin hukuki çözümler</p>
                 <p className="p-2 font-mono md:text2xl text-xl py-4">Esas Hukuk Avukatlık Bürosu olarak Bolu&apos;da<br />avukatlık, hukuki danışmanlık ve arabuluculuk hizmetleri vermekteyiz</p>
+                <Link href="/contact">
+                  <button className="bg-[#02c71cb2] w-[200px] rounded-md font-bold my-6 mx-auto py-3 text-black">İLETİŞİM İÇİN</button>
+                </Link>
                 
-                <button className="bg-[#02c71cb2] w-[200px] rounded-md font-bold my-6 mx-auto py-3 text-black">İLETİŞİM İÇİN</button>
                     
             </div>
         </div>
